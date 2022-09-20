@@ -60,7 +60,6 @@ function checkUserCredentials(email, password) {
       },
     })
       .then(function (user) {
-        console.log(user);
         resolve(user);
       })
       .catch(function (err) {
@@ -69,7 +68,7 @@ function checkUserCredentials(email, password) {
   });
 }
 
-app.use("/", express.static(__dirname + "/public"));
+app.use("/", express.static(__dirname));
 
 app.post("/login", (req, res) => {
   let email = req.body.email;

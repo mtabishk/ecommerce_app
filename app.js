@@ -100,6 +100,8 @@ app.post("/signup", (req, res) => {
   }
 });
 
-app.listen(3000, () => {
-  console.log("Server running on http://localhost:3000");
-});
+// Establishing the port
+const PORT = process.env.PORT || 5000;
+
+// Executing the server on given port number
+app.listen(PORT, console.log(`Server started on port ${PORT}`));

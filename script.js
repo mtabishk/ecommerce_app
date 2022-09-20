@@ -14,6 +14,9 @@ window.onload = function () {
   const signupPassword = document.getElementById("sgn-pass");
   const signupPasswordConfirm = document.getElementById("sgn-pass-conf");
 
+  //Logout
+  const logoutBtn = document.getElementById("logout");
+
   signupBtn.onclick = function () {
     loginForm.style.marginLeft = "-50%";
     loginText.style.marginLeft = "-50%";

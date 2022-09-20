@@ -183,7 +183,27 @@ form .btn input[type="submit"]{
 
 .contactus {
   background-color: #f1f1f1;
-  padding: 50px 80px;
+  padding: 20px 80px;
+  margin: 50px;
   text-align: center;
   font-family: arial;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 40px;
+  width: 50px;
+  text-decoration: none;
+  margin: 5px 80px;
+}
+
+.logout-btn {
+  background-color: #337AB7;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
 }

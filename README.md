@@ -1,5 +1,10 @@
 ﻿# ecommerce_app
  
+
+https://user-images.githubusercontent.com/61789893/191306552-a07c34a0-93ca-43ce-b35f-857803b58b19.mp4
+
+
+ 
 **Technologies Used:**
  1. HTML, CSS, JS - Frontend
  2. Node.js - Backend
